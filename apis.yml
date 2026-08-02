@@ -1,8 +1,14 @@
 aid: veritasfin
 name: Veritasfin
-description: 'Veritasfin is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Veritas Finance Limited is a non-banking finance company (NBFC) in India
+  focused on retail and micro, small and medium enterprise (MSME) lending to underserved
+  and self-employed customers. Its lending products include MSME and business loans,
+  loan against property, home loans, mortgage and working-capital finance, and used
+  commercial vehicle loans, supported by an EMI calculator, branch network, online
+  payment portals and an investor-relations and corporate-governance section. It was
+  surfaced in the API Evangelist network as a portfolio company of Norwest Venture
+  Partners. Public probing of veritasfin.in finds a corporate financial-services
+  website with no developer portal, documentation, or public API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/veritasfin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://veritasfin.in/image/fav.ico
 tags:
 - Company
-- Unknown
+- Financial Services
+- Lending
+- NBFC
+- MSME
+- Home Loans
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/veritasfin-domain-security.yml
 - type: Website
   url: https://veritasfin.in
+- type: Blog
+  url: https://veritasfinance.wordpress.com
+- type: Support
+  url: https://veritasfin.in/contact-us.php
+- type: PrivacyPolicy
+  url: https://veritasfin.in/image/pdf_fles/Privacy%20Policy_2023.pdf
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
