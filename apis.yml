@@ -44,7 +44,7 @@ modified: '2026-07-21'
 image: https://veritasfin.in/image/fav.ico
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - NBFC
 - MSME
@@ -58,6 +58,7 @@ tags_raw:
 - MSME
 - Home Loans
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
